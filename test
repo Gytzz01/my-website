@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Gambar Bergerak</title>
+    <style>
+        .moving-image {
+            width: 200px; /* Atur lebar gambar */
+            animation: move 3s infinite; /* Animasi selama 3 detik, berulang tak terbatas */
+        }
+        
+        @keyframes move {
+            0% { transform: translateX(0); } /* Mulai dari posisi awal */
+            50% { transform: translateX(200px); } /* Bergerak ke kanan 200px */
+            100% { transform: translateX(0); } /* Kembali ke posisi awal */
+        }
+    </style>
+</head>
+<body>
+    <img src="L Lawliet.jpg">
+</body>
+</html>
+
